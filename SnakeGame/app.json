@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/snake/snake",
+    "pages/index/index",
+    "pages/canvas/canvas"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff123",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/img/xianxingbaozhu.png",
+      "selectedIconPath": "/img/xianxingbaozhu.png"
+      },
+      {
+        "pagePath": "pages/snake/snake",
+        "text": "游戏",
+        "iconPath": "/img/xianxingbaozhu.png",
+        "selectedIconPath": "/img/xianxingbaozhu.png"  
+      },
+      {
+        "pagePath": "pages/canvas/canvas",
+        "text": "画布",
+        "iconPath": "/img/xianxingbaozhu.png",
+        "selectedIconPath": "/img/xianxingbaozhu.png"  
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

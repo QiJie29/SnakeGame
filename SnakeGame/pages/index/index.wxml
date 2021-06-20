@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<!-- <view class="index">
+  <view>这个是首页</view>
+  <text>index</text>
+</view>
+<view class="index">snake1</view>
+<view></view>
+<text class="text">这个页面是贪吃蛇首页2</text>
+<text>
+  <text>这是第二个页面</text>
+  <text>snake</text>
+</text> -->
+
+<!-- <view class="change">类选择器1</view>
+<view class="change">类选择器2</view> -->
+
+<!-- <view class="radius">border-radius</view> -->
+
+<!-- <view class="float1">
+  <view class="float2">float浮动属性</view>
+  <view>yangshi</view>
+</view> -->
+
+<view class="flex">
+  <view class="display1">1</view>
+  <view class="display2">2</view>
+  <view class="display3">3</view>
+  <view class="display4">4</view>
+</view>

@@ -1,0 +1,102 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+view{
+  color: black;
+}
+text{
+  color: green;
+  font-size: 60rpx;  
+}
+.index{
+  color: blue;
+  background-color: pink;
+  width: 500rpx;
+  height: 200rpx;
+  border: 10rpx solid black;
+  /* margin-bottom: 40rpx; */
+  margin: 40rpx 40rpx 40rpx 40rpx;
+  padding-top: 40rpx;
+}
+.text{
+  background-color: red;
+  width: 300rpx;
+  height: 300rpx;
+}
+
+/* 类选择器last-child */
+.change{
+  background: red;
+  font-style: italic;
+  text-align: center;
+  width: 300rpx;
+  height: 300rpx;
+  line-height: 300rpx;
+}
+.change:last-child{
+  background: blue;
+}
+.radius{
+  background: pink;
+  width: 300rpx;
+  height: 300rpx;
+  text-align: center;
+  line-height: 300rpx;
+  border: 6rpx solid black;
+  /* 圆角边框 */
+  border-radius: 20rpx; 
+}
+
+.float1{
+  background: blue;
+}
+.float2{
+  float: right;
+  background: pink;
+}
+
+.flex{
+  display: flex;
+}
+/* .flex view{
+  flex: 1;
+} */
+.display1{
+  background: pink;
+  text-align: center;
+  width: 300rpx;
+}
+.display2{
+  background: blue;
+  text-align: center;
+  flex: 1;
+}
+.display3{
+  background: green;
+  text-align: center;
+  flex: 1;
+}
+.display4{
+  background: yellow;
+  text-align: center;
+  flex: 1;
+}

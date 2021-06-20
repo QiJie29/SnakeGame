@@ -1,0 +1,63 @@
+/* pages/snake/snake.wxss */
+.score{
+  display: flex;
+}
+.title{
+  flex: 1;
+  background: pink;
+  height: 150rpx;
+  margin: 40rpx 20rpx 40rpx 40rpx;
+  text-align: center;
+  font-size: 70rpx;
+  line-height: 150rpx;
+  color: white;
+  border-radius: 20rpx;
+}
+.scoreDetail{
+  flex: 1;
+  background: rgb(243, 151, 243);
+  height: 150rpx;
+  margin: 40rpx 20rpx;
+  text-align: center;
+  color: white;
+  border-radius: 20rpx;
+}
+.scoreDesc{
+  line-height: 60rpx;
+}
+.scoreNumber{
+  line-height: 70rpx;
+}
+.scoreDetail:last-child{
+  margin-right: 40rpx;
+}
+
+.ground{
+  width: 660rpx;
+  height: 840rpx;
+  margin-left: 50rpx;
+}
+.rows{
+  /* width: 680rpx;
+  height: 800rpx;
+  background: rgb(162, 202, 248);
+  margin-left: 35rpx; */
+  width: 660rpx;
+  height: 30rpx;
+}
+.block{
+  background: rgb(162, 202, 248);
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+}
+.control{
+  width: 100%;
+  height: 100%;
+}
+.block_1{
+  background: green;
+}
+.block_2{
+  background: yellow;
+}
